@@ -15,7 +15,12 @@ function cadastrar() {
 
   return (
 
+   
+
     <form onSubmit={handleSubmit}>
+
+      <p>Cadastro de Autor</p>
+      
       <label>
         Nome:
         <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} />
@@ -44,6 +49,8 @@ function cadastrar() {
       
                                 
       <Link href="/">Pagina principal</Link>
+
+       
     </form>
     
   );
